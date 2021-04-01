@@ -329,7 +329,7 @@ export default function Clubs() {
                       justify="center"
                       alignItems="stretch">
                   {team.map((team) => (
-                      <Grid item key={team} xs={6} sm={4} md={3}>
+                      <Grid item key={team} md='auto'>
                         <Card className={about.card}>
                           <CardMedia
                               className={about.cardMedia}
